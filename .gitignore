@@ -18,7 +18,7 @@ bin/
 !**/src/test/**/bin/
 
 ## frontend
-!src/main/node_modules/
+!src/main/frontend
 
 ### IntelliJ IDEA ###
 .idea
