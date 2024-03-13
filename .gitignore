@@ -17,9 +17,6 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-## frontend
-!src/main/frontend/
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -63,3 +60,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
+## frontend
+!src/main/frontend/
