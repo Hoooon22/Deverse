@@ -1,24 +1,12 @@
-import React, {useEffect, useState} from 'react';
-import axios from 'axios';
-import { Header } from 'containers';
+import "./App.css";
+import Router from "./Router";
 
 function App() {
-   const [hello, setHello] = useState('')
-
-    useEffect(() => {
-        axios.get('/api/hello')
-        .then(response => setHello(response.data))
-        .catch(error => console.log(error))
-    }, []);
-
-    return (
-        <React.Fragment>
-            <Header />
-            <div>
-                백엔드에서 가져온 데이터입니다 : {hello}
-            </div>
-        </React.Fragment>
-    );
+  return (
+    <div className='App'>
+      <Router />
+    </div>
+  );
 }
 
 export default App;
