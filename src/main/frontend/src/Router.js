@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import AboutPage from "./pages/Main";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./pages/main";
 
 export default function Router() {
   return (
