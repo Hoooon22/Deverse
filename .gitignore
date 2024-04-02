@@ -3,7 +3,7 @@ HELP.md
 build/
 !gradle/wrapper/gradle-wrapper.jar
 
-## Secreate
+## Secret
 src/main/resources/application-Secret.properties
 
 ### STS ###
