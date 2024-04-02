@@ -3,6 +3,9 @@ HELP.md
 build/
 !gradle/wrapper/gradle-wrapper.jar
 
+## Secreate
+src/main/resources/application-Secret.properties
+
 ### STS ###
 .apt_generated
 .classpath
@@ -57,3 +60,4 @@ yarn-error.log*
 
 ## frontend
 src/main/frontend/node_modules
+src/main/frontend/build
